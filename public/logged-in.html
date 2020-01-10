@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cypress | LoggedIn</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h3 data-cy="title-loggedin">Welcome, you are now logged in.</h3>
+        <form action="/logout" method="post">
+          <button
+            type="submit"
+            class="btn btn-secondary mt-3"
+            data-cy="btn-loggedout"
+          >
+            Sign Out
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
